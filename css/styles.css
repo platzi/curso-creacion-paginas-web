@@ -4,9 +4,32 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-#explicacion {
-    width: 500px;
-    height: 500px;
-    background: blue;
+/* Acá tengo estilos generales */
+
+.image-container {
+    display: flex;
+}
+
+.image-container img {
+    width: 100%;
+}
+
+/* Acá tengo los estilos del header */
+
+header {
+    background: #1f1f1f;
+    padding: 10px 50px;
+}
+
+#logo {
+    width: 50px;
+}
+
+#logo img {
+    border-radius: 100%;
+    border: 2px solid #fff; 
 }
