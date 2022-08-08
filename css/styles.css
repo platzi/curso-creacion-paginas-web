@@ -33,3 +33,28 @@ header {
     border-radius: 100%;
     border: 2px solid #fff; 
 }
+
+/* Acá están los estilos del hero */
+
+#hero {
+    position: relative;
+}
+
+#hero #computadora {
+    display: inline-block;
+    width: 100%;
+}
+
+#hero .informacion-contenedor {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#hero .informacion-contenedor #foto {
+    width: 200px;;
+}
+
+#hero .informacion-contenedor #foto img {
+    border-radius: 100%;
+}
