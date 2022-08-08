@@ -67,6 +67,7 @@ header {
 #hero .informacion-contenedor .informacion {
     margin-left: 20px;
     font-weight: bold;
+    width: calc(100% - 200px);
 }
 
 #hero .informacion-contenedor .informacion span {
